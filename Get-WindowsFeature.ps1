@@ -1,0 +1,1 @@
+Get-WindowsFeature | Format-list Name,InstallState | more 

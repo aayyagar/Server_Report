@@ -1,0 +1,2 @@
+#Decommission Old Domain Controller 
+Uninstall-ADDSDomainController -DemoteOperationMasterRole -RemoveApplicationPartition

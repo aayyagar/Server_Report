@@ -1,0 +1,1 @@
+Get-ChildItem D:\Users\zorro\Downloads\PSWindowsUpdate\ | Unblock-File

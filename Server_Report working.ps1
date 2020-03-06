@@ -8,7 +8,7 @@
     -CompanyLogo "\\Server01\Admin\Files\CompanyLogo.png"
 .PARAMETER RightLogo
     Enter URL or UNC path to your desired right-side logo for generated report.
-    -RightLogo "http://tekphoenix.net/ "
+    -RightLogo "http://tekphoenix.net/#page-top"
 .PARAMETER ReportTitle
     Enter desired title for generated report.
     -ReportTitle "Active Directory Report"
@@ -26,9 +26,9 @@
     -ADModNumber "3"
 .NOTES
     Version: 1.0.3
-    Author: Ayyagari Akhilesh
-    Date: 12/4/2019
-    Modified: AA 12/5/2018
+    Author: Akhiles Ayyri
+    Date: 12/4/2018
+    Modified: AA 12/4/2019
 			  
 #>
 
@@ -40,7 +40,7 @@ param (
 	#Logo that will be on the right side, UNC or URL
 
 	[Parameter(ValueFromPipeline = $true, HelpMessage = "Enter URL or UNC path for Side Logo")]
-	[String]$RightLogo = "http://tekphoenix.net/",
+	[String]$RightLogo = "http://tekphoenix.net/#page-top",
 	#Title of generated report
 
 	[Parameter(ValueFromPipeline = $true, HelpMessage = "Enter desired title for report")]

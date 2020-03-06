@@ -1,0 +1,1 @@
+Get-WMIObject Win32_operatingsystem -ComputerName Server1.domain.local  | select csname,@{LABEL='lastbootuptime';EXPRESSION={$_.ConverttoDateTime($_.lastbootuptime)}}
